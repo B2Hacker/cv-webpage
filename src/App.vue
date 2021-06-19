@@ -9,7 +9,7 @@
       <i class="fab fa-black-tie fa-3x"></i></div>
       <div><v-btn to="/" plain><v-toolbar-title>Brandon Cortes</v-toolbar-title></v-btn>
       </div>
-      <v-btn to="/Certification" plain>Certification</v-btn>
+      <v-btn to="/Certification" plain>Certifications</v-btn>
 
     </v-app-bar>
 
