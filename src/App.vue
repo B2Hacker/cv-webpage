@@ -8,7 +8,7 @@
       <router-view />
     </v-main>
 
-    <v-footer flat >
+    <v-footer color="black" flat >
       <Footer />
     </v-footer>
   </v-app>
