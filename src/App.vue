@@ -1,28 +1,30 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="purple"
-      dark
-    >
-      <div class="d-flex align-center">
-      <i class="fab fa-black-tie fa-3x"></i></div>
-      <div><v-btn to="/" plain><v-toolbar-title>Brandon Cortes</v-toolbar-title></v-btn>
-      </div>
-      <v-btn to="/Certification" plain>Certifications</v-btn>
-
+    <v-app-bar app flat color="purple">
+      <NavBar />
     </v-app-bar>
 
     <v-main>
-      <router-view/>
+      <router-view />
     </v-main>
+
+    <v-footer flat >
+      <Footer />
+    </v-footer>
   </v-app>
 </template>
 
 <script>
+import Footer from "./components/Footer.vue";
+import NavBar from "./components/NavBar.vue";
 
 export default {
-  name: 'App',
+  name: "App",
+
+  components: {
+    Footer,
+    NavBar,
+  },
 
   data: () => ({
     //
