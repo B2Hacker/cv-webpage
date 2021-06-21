@@ -1,15 +1,15 @@
 <template>
-  <hello-world />
+  <CV />
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import CV from '../components/CV.vue'
 
   export default {
     name: 'Home',
 
     components: {
-      HelloWorld,
+      CV,
     },
   }
 </script>
