@@ -7,8 +7,8 @@
       </v-btn>
       
       <v-toolbar-items>
+        <v-btn to="/SkillsandInterest" plain>Skills And Interests</v-btn>
         <v-btn to="/Certification" plain>Certifications</v-btn>
-
       </v-toolbar-items>
     </v-toolbar>
   </v-container>
